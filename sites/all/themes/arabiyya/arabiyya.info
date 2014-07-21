@@ -1,0 +1,34 @@
+name = arabiyya
+description = Please provide a description for your theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+
+
+stylesheets[all][] = libraries/flexslider/flexslider.css
+stylesheets[all][] = css/arabiyya.styles.css
+
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = libraries/flexslider/jquery.flexslider-min.js
+scripts[] = js/arabiyya.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[branding] = Branding
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer] = Footer
