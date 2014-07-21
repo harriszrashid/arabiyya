@@ -1,5 +1,5 @@
 name = arabiyya
-description = Please provide a description for your theme.
+description = A theme for the arabiyya site.
 base theme = omega
 screenshot = screenshot.png
 engine = phptemplate
