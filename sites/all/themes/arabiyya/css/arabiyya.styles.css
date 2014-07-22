@@ -50,9 +50,21 @@ body{
   width:100%;
   height:100px;
   position:absolute;
-  top:0;
+  top:-60px;
   left:0;
   margin-bottom: 0;
+}
+
+.slides li .views-field h2.active-slide{
+  top:0px;
+  -webkit-transition:all .5s ease-in-out;
+  -moz-transition:all .5s ease-in-out;
+  -o-transition:all .5s ease-in-out;
+  transition:all .5s ease-in-out;
+}
+
+.slides li .views-field h2:hover{
+  cursor:pointer;
 }
 
 .slides li .views-field-title-field-1 h2 {
@@ -186,6 +198,32 @@ nav ul.menu li{
 a{
   color:#46bcce;
   text-decoration: none;
+}
+
+
+/*System*/
+
+thead{
+  background-color: #F7F7F7;
+  border:1px solid #DEDEDE;
+}
+
+th, td{
+  padding:10px 60px 10px 10px;
+  background:none;
+}
+
+tr.even, tr.odd {
+  background-color: #FFF;
+}
+
+td.active {
+  background: none;
+}
+
+tr.even {
+  background-color: #F7F7F7;
+  border-bottom:1px solid #DEDEDE;
 }
 
 
